@@ -4,7 +4,8 @@ Client Side (Unity) of the Second Year 2016/2017 AIV Project (2A)
 
 # Sprints
 
-March 20 - April 3 (sprint meeting)
+Sprint 1 - March 20 - April 3 (sprint meeting)
+=
 
 April 3 - April 19 (sprint meeting)
 

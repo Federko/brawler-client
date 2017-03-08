@@ -1,11 +1,28 @@
 # brawler-client
 Client Side (Unity) of the Second Year 2016/2017 AIV Project (2A)
 
+# Area
 
-# Sprints
+* Lead: Stefano Petruzzellis
+* Movements (net): Emanuele Freschi
+* Attacks (net): Mattia Pezzano, Federico Cardetti
+* Polishing: Alessandro Aiudi, Enrico Cempanari
+* Tooling: Francesco Grelli
+* Lobby (net): Roberto Folco
+* Compositing: Alessandro Aiudi
+* Audio: Remo Orlandini
+* QA: Marco Corbi
+
+
+# Sprints and User Stories
 
 Sprint 1 - March 20 - April 3
 -
+
+* Compositing: Blockout
+* Movements+Attacks: Capsule Movement with prediction and extrapolation (walking and idle)
+* Tooling: Import an FBX and generate a Prefab
+* Lobby+Audio: player registration (canvas), register webcam shot and microphone
 
 (sprint meeting)
 

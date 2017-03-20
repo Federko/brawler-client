@@ -41,6 +41,8 @@ Notes:
 
 20170320 Attacks networking is postponed, introduced camera locking
 
+20170320 Use InControl for joystick support
+
 (sprint meeting)
 
 

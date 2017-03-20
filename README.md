@@ -24,6 +24,10 @@ Sprint 1 - March 20 - April 3
 * Tooling: Import an FBX and generate a Prefab
 * Lobby+Audio: player registration (canvas), register webcam shot and microphone
 
+Notes:
+
+20170320 Enforce the usage of substance materials, the assets importer should take the .sbsar file as input
+
 (sprint meeting)
 
 

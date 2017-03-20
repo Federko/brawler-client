@@ -27,6 +27,11 @@ Sprint 1 - March 20 - April 3
 Notes:
 
 20170320 Enforce the usage of substance materials, the assets importer should take the .sbsar file as input
+20170320 Use root motion for warrior movements
+20170320 Souls like attacks
+20170320 Client-authority collisions
+20170320 Stamina
+20170320 Shields damage (with fracturing)
 
 (sprint meeting)
 

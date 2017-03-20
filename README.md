@@ -20,7 +20,8 @@ Sprint 1 - March 20 - April 3
 -
 
 * Compositing: Blockout
-* Movements+Attacks: Capsule Movement with prediction and extrapolation (walking and idle)
+* Movements: Capsule Movement with prediction and extrapolation (walking and idle)
+* Camera Locking
 * Tooling: Import an FBX and generate a Prefab
 * Lobby+Audio: player registration (canvas), register webcam shot and microphone
 
@@ -37,6 +38,8 @@ Notes:
 20170320 Stamina
 
 20170320 Shields damage (with fracturing)
+
+20170320 Attacks networking is postponed, introduced camera locking
 
 (sprint meeting)
 

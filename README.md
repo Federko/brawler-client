@@ -45,6 +45,8 @@ Notes:
 
 20170322 The warrior importer should regenrate the animator override controller mappings from the files in a directory
 
+20170322 Camera Team needs to play Dark Souls
+
 (sprint meeting)
 
 

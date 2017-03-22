@@ -43,6 +43,8 @@ Notes:
 
 20170320 Use InControl for joystick support
 
+20170322 The warrior importer should regenrate the animator override controller mappings from the files in a directory
+
 (sprint meeting)
 
 

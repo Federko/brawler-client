@@ -43,7 +43,7 @@ Notes:
 
 20170320 Use InControl for joystick support
 
-20170322 The warrior importer should regenrate the animator override controller mappings from the files in a directory
+20170322 The warrior importer should regenerate the animator override controller mappings from the files in a directory
 
 20170322 Camera Team needs to play Dark Souls
 

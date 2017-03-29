@@ -4,6 +4,7 @@ Client Side (Unity) of the Second Year 2016/2017 AIV Project (2A)
 # Area
 
 * Lead: Stefano Petruzzellis
+* AI (monsters): Stefano Petruzzellis
 * Movements (net): Emanuele Freschi
 * Attacks (net): Mattia Pezzano, Federico Cardetti
 * Polishing: Alessandro Aiudi, Enrico Cempanari

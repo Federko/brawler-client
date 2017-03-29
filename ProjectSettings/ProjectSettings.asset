@@ -461,7 +461,8 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   cloudProjectId: d898109e-7ff3-4f23-b03c-33184a766322
   projectName: Brawler (4)
   organizationId: petru23

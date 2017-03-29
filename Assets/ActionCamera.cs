@@ -5,6 +5,8 @@ using System;
 
 public class ActionCamera : MonoBehaviour
 {
+    public bool ManageInputFromOtherScript;
+
     [HideInInspector]
     public float distanceDelta;
 

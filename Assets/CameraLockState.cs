@@ -74,14 +74,15 @@ public class CameraLockState : ICameraState
         position.y = LockHeight;
         Transform.position = Vector3.Lerp(Transform.position, position, Time.deltaTime * 10f);
 
-        #region TO DELETE
-        //must be removed, use ActionCamera methods for switching states.
-        if (Input.GetKeyDown(KeyCode.JoystickButton0))
+        if(!ActionCamera.ManageInputFromOtherScript)
         {
-            focusedTarget.OnTargetReleased();
-            ActionCamera.Unlock();
+            //must be removed, use ActionCamera methods for switching states.
+            if (Input.GetKeyDown(KeyCode.JoystickButton0))
+            {
+                focusedTarget.OnTargetReleased();
+                ActionCamera.Unlock();
+            }
         }
-
 
         if (Input.GetKeyDown(KeyCode.Z))
         {
@@ -95,7 +96,7 @@ public class CameraLockState : ICameraState
             if (t != null)
                 focusedTarget = t;
         }
-        #endregion
+
     }
 
 

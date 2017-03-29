@@ -76,15 +76,14 @@ public class CameraActionState : ICameraState
         }
         Transform.position = Vector3.Lerp(Transform.position, rotation * new Vector3(0, ActionHeight, newDistance) + Target.position, Time.deltaTime * 19f);
 
-
-        #region TO DELETE
-        //must be removed, use ActionCamera methods for switching states.
-        if (Input.GetKeyDown(KeyCode.M))
+        if (!ActionCamera.ManageInputFromOtherScript)
         {
-            ActionCamera.Lock();
+            //must be removed, use ActionCamera methods for switching states.
+            if (Input.GetKeyDown(KeyCode.M))
+            {
+                ActionCamera.Lock();
+            }
         }
-        #endregion
-
     }
 
 

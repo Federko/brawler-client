@@ -1,0 +1,29 @@
+	21/03/2017
+Implemented action camera and locked camera.
+Created ActionCamera component, is camera behaviour and can be setted by inspector.
+(REMOVED)Implemented generic state machine for action and lock camera.
+Implemented repositioning (configurable from inspector).
+implement ITargettable interface to make gameobject targettable.
+implement distance check from locked target
+property Locked identify for other class the main reference for camera state(if is locked or not)
+
+	22/03/2017
+Implemented target checking configurable from inspector.
+
+	24/03/2017
+Implemented OnTarget... methods in ITargettable
+	-OnTargetFocused() = Called once time when target is focused
+	-OnTargetReleased() = Called once time when target is released (from button click)
+	-OnTargetLosed() = Called once time when target is losed (from distance)
+Implemented methods that can be possible manage input in external script
+Implemented automatic research of CAMERA target (not enemy focused) by tag "Player"
+Created shortcut ActionCamera.Main, like UnityEngine.Camera.main
+--Removed GenericStateMachine and reimplemented logic in ActionCameraComponent
+Refactoring of code
+Fixed sight when camera looking foot
+
+	25/03/2017
+Bug fixes
+
+	29/03/2017
+Implemented switch of target in lock state
